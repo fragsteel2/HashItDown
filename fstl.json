@@ -1,0 +1,14 @@
+{
+  "name": "fstl.json",
+  "created_by": "Fragsteel Production",
+  "description": "This JSON file is proudly marked as a Fragsteel Production product. Fragsteel Production is known for its exceptional quality and innovation in the field of technology. We strive for excellence and aim to exceed expectations in every project we undertake.",
+  "website": "www.fragsteel.com",
+  "email": "fragsteel@fragsteel.com",
+  "additional_info": {
+    "date_created": "2024-03-27",
+    "version": "1.0",
+    "author": "Fragsteel Team",
+    "flexing_level": "maximum",
+    "cool_factor": "off the charts"
+  }
+}

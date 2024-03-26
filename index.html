@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hash Signature</title>
+<style>
+  #hashSquare {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div id="hashSquare">HASH</div>
+
+<script>
+document.getElementById("hashSquare").addEventListener("click", function() {
+  var address = prompt("Enter the address you wish to get hash signatured:");
+  if (address !== null && address !== "") {
+    var message = "I, hereby verify that I am the owner/creator of the address [" + address + "]";
+    var messageHash = getMessageHash(message);
+    alert("Message Hash: " + messageHash);
+  }
+});
+
+function getMessageHash(message) {
+  // Dummy implementation for demonstration
+  return "DummyHashForDemoPurpose";
+}
+</script>
+
+</body>
+</html>
